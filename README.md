@@ -10,13 +10,14 @@ Use SQL inside Python to pull simple sales information (like total quantity sold
 - **SQLite** (built into Python)
 - **pandas**
 - **matplotlib**
-- **jupiter notebook
+- **jupiter notebook**
 
 ---
 
 ### 🗂️ Dataset
 A small SQLite database file named `sales_data.db` was created.  
 It contains one table: **sales**, with the following columns:
+- `order id`
 - `product` — Name of the product  
 - `quantity` — Quantity sold  
 - `price` — Price per unit  
@@ -29,14 +30,7 @@ It contains one table: **sales**, with the following columns:
 4. **Create Table and Insert Sample Data**
 5. **Run SQL Query to Get Sales Summary**
 6. **Visualize the Results**
-   ```python
-   df.plot(kind='bar', x='product', y='revenue', title='Revenue by Product', legend=False)
-   plt.ylabel('Revenue')
-   plt.xlabel('Product')
-   plt.show()
-   ```
 
----
 
 ### 📊 Output
 **Printed Table**
